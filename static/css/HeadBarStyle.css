@@ -1,10 +1,12 @@
 :root {
 	--navbarMenuFont: 25px;
+	--nav--main--color: #36b8f5;
 }
 
 @font-face {
-	font-family: 'BinggraeSamanco-Bold';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff') format('woff');
+	font-family: "BinggraeSamanco-Bold";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff")
+		format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -12,7 +14,6 @@
 * {
 	font-family: "BinggraeSamanco-Bold";
 }
-
 
 .mainBar {
 	height: 400px;
@@ -53,7 +54,7 @@
 }
 
 .menu.find:focus {
-	outline: 1px solid #1cc778;
+	outline: 1px solid #36b8f5;
 }
 
 .menu.icon {
@@ -62,7 +63,7 @@
 	margin-right: 62px;
 }
 
-.menu.go>a {
+.menu.go > a {
 	text-decoration: none;
 	color: initial;
 }
@@ -94,7 +95,7 @@
 	font-size: var(--navbarMenuFont);
 }
 
-.Assign>a {
+.Assign > a {
 	text-decoration: none;
 	color: initial;
 }
@@ -120,10 +121,10 @@ i.fa-solid.fa-people-roof {
 }
 .logo-title-a {
 	text-decoration: none;
-	color: forestgreen;
+	color: #000;
 }
 .logo-title-a:hover {
-	color: hotpink;
+	color: #000;
 }
 
 .side {
