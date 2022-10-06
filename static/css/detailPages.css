@@ -184,11 +184,15 @@
 .product-img:hover,
 .back-space:hover,
 .big-jjim-status:hover,
-.howToDeal:hover,
 .dialog-status:hover,
 .heart-big:hover,
 .btn:hover {
 	cursor: pointer;
+	border-color: forestgreen;
+	color: forestgreen;
+}
+
+.choice {
 	border-color: forestgreen;
 	color: forestgreen;
 }

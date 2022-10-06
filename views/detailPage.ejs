@@ -86,8 +86,8 @@
 								<%=product_detail_info["product_name"]%>
 							</h2>
 							<div class="product-price">
-								<div class="howToDeal">교 환</div>
-								<div class="howToDeal">나 눔</div>
+								<div class="howToDeal exchange">교 환</div>
+								<div class="howToDeal share">나 눔</div>
 							</div>
 						</div>
 						<div class="product-content">
@@ -134,6 +134,17 @@
 		<%- include("footer.ejs") %>
 
 		<script>
+			const incomeData = "product_detail_info['product_price']";
+			const exchange = document.querySelector('.exchange');
+			const share = document.querySelector('.share');
+			const CHOICE_CLASS = "choice"
+
+			if (incomeData === "0") {
+				exchange.classList.add(CHOICE_CLASS)
+			} else {
+				share.classList.add(CHOICE_CLASS)
+			}
+
 			const backSpace = document.querySelector('.back-space')
 			backSpace.addEventListener('click',()=>{document.location = 'http://localhost:8000/product'})
 			const ex = "<%=product_img_src%>";
