@@ -3,8 +3,9 @@
 ![good1](https://user-images.githubusercontent.com/71423455/199411357-bb809a41-be6f-4cc7-a327-13c0621736a9.png)
 
 ## 프로젝트 소개
-* K-Digital Training 웹 풀스택 과정 2차 프로젝트를 통해 진행한 팀프로젝트입니다. 
-* 야채,과일을 나눔,교환하는 사이트를 제작했으며, 총 4명이 2022.08.15 ~ 2022.08.29( 2주간 ) 개발을 진행하였습니다.
+* K-Digital Training 웹 풀스택 과정 2차 팀 프로젝트
+* 야채,과일을 나눔,교환하는 사이트를 제작했다. 
+* 참여인원은 총 4명으로 기간은 2022.08.15 ~ 2022.08.29 로 약 2주가 소요 됐다.
 * HTML, CSS, JavaScript, Node.js, Express, Etc...
 
 ## 페이지 설계
@@ -12,8 +13,7 @@
 <img width="1487" alt="upload" src="https://user-images.githubusercontent.com/71423455/199429201-7cdd0130-b0a8-4793-a544-99b00de35e54.png">
 <img width="581" alt="diagram" src="https://user-images.githubusercontent.com/71423455/199430939-0977f760-8812-455c-897f-428374074dc1.png">
 
-* 전체적인 UI/UX, 메인 컬러 디자인
-* 모든 페이지에 반응형 페이지 적용
+* 전체적인 UI/UX, 메인 컬러 디자인과 모든 페이지에 반응형 페이지를 적용했다.
 
 ## Front - end
 > 메인 화면
