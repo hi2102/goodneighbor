@@ -47,6 +47,42 @@
 * 내 정보 페이지의 색상과 기본 UI 설계 했는데 이 역시 display Grid, Flex, position을 사용했다.
 * 내가 찜한 목록 확인이 가능하다.
 
+## Back - end
+
+![erd](https://user-images.githubusercontent.com/71423455/199441124-3a7d9519-a97c-441e-9af7-297c23ca1dff.png)
+
+∙ MySQL - DB 생성 
+
+∙ CRUD 구현
+
+∙ 데이터 베이스 설계 (ERD)
+
+- 회원가입 - `member`에 `address` 테이블의 `address_id`를 FK 설정  →  on update cascade
+
+- 주문 - `order_list`에 `member_id`와 `product_id` FK 설정  → on update cascade
+    
+    
+- 상품 - `product` 테이블에 `member` 테이블 `member_id`를 FK 설정  → on update cascade
+    
+    ∙ timestamp 설정 / 상품 등록 시간 체크
+    
+- 찜 - `wish_list`에 `member_id`와 `product_id` FK 설정 → on update cascade
+    
+    
+- 이미지 - 유저가 업로드 할 상품의 이미지를 저장 → on update cascade on delete cascade
+    
+    ∙ `image` 에 `product`의 `product_id`를 FK 설정
+    
+- 채팅 - `chat_room`→ 채팅방 번호, 채팅 내용, 채팅 참여자 3개의 테이블을 생성
+    
+    ∙ 채팅방( `chat_room` )의 `room_id` FK 설정 → on update cascade
+    
+    ∙ `chat_content`에 `chat_room`의 `room_id` 를 FK 설정 → on update cascade
+    
+    ∙ `chat_list` 에 `member`의 `member_id`와  `chat_room`의 `room_id`를 FK 설정
+    
+    → on update cascade
+    
 > 클라우드 서버 구축
 
 * 네이버 클라우드 플랫폼을 이용해 웹 서버를 구축
