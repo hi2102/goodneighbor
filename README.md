@@ -23,7 +23,7 @@
 * 내가 찜한 목록 확인
 * 회원 탈퇴 
 
-<img width="1063" alt="스크린샷 2022-11-02 오후 4 43 07" src="https://user-images.githubusercontent.com/71423455/199429256-5d495769-8b41-4a33-87e6-33daf957b8c1.png">
+<img width="1063" alt="diagram" src="https://user-images.githubusercontent.com/71423455/199430843-ff2c5381-84d4-4e2a-b893-68b624447ce6.png">
 
 > 클라우드 서버 구축
 * 네이버 클라우드 플랫폼을 이용해 웹 서버를 구축
