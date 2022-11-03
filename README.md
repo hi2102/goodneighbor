@@ -55,18 +55,19 @@
 
 ![erd](https://user-images.githubusercontent.com/71423455/199441124-3a7d9519-a97c-441e-9af7-297c23ca1dff.png)
 > 데이터 베이스 설계 (ERD)
+
 * MySQL로 DB 생성하고 ORM은 sequelize를 사용해 CRUD를 구현했다.
-* 회원 가입 데이터와 주소 데이터를 분리하여 저장할 수 있도록 각각의 테이블을 `member`와 `address` 테이블로 지정해서 분리했다
+    * 회원가입 → `member`, 주소 → `address`, 상품 → `product`, 찜 → `wish_list`, 주문 → `order_list`  
+* 회원 가입 데이터와 주소 데이터를 분리하여 저장할 수 있도록 각각의 테이블로 지정해서 분리했다
 * 유저가 상품을 업로드할 떄의 시간을 확인헤서 상세 페이지에서 확인이 가능하도록 `product` 테이블에 timestamp를 설정헸다.
+* 유저가 업로드 할 상품의 이미지와 상품 이름을 저장할 수 있는 `image` 테이블을 생성했다.
 
 > FK Constraints - Referential Actions
-* `address_id`를 FK로 설정하며 on update cascade를 설정했다. 
+* `address_id`를 FK로 설정하며 on update cascade
 * `product` 테이블에 `member` 테이블의 `member_id`를 FK 설정하고 on update cascade
-* 찜테이블( wish_list )과 구매 목록 테이블( order_list )에 회원 `member` 테이블을 FK로 연결해 on update cascade 헸다.
-* 유저가 업로드 할 상품의 이미지와 상품 이름을 저장할 수 있는 `image`테이블을 만들어 on update cascade on delete cascade
-* `image`테이블에 `product`의 `product_id`를 FK 설정
+* `wish_list`와 1order_list`테이블에 `member` 테이블을 FK로 연결해 on update cascade
+* `image`테이블에 `product`의 `product_id`를 FK 설정하고 on update cascade on delete cascade
 
-    
 > 클라우드 서버 구축
 
 * 네이버 클라우드 플랫폼을 이용해 웹 서버를 구축
