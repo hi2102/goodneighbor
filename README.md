@@ -11,7 +11,8 @@
 ## 페이지 설계
 
 * 로그인부터 구매하기 까지의 다이어그램
-<img width="1487" alt="upload" src="https://user-images.githubusercontent.com/71423455/199429201-7cdd0130-b0a8-4793-a544-99b00de35e54.png">
+<img width="1867" alt="login" src="https://user-images.githubusercontent.com/71423455/199628030-22a2c39b-4891-41b5-bb9c-b57e6918ad9d.png">
+
 
 * 상품 상세페이지 기능에 대한 표
 <img width="581" alt="diagram" src="https://user-images.githubusercontent.com/71423455/199430939-0977f760-8812-455c-897f-428374074dc1.png">
