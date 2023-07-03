@@ -3,7 +3,7 @@
 		"host": "192.168.0.135",
 		"database": "good_neighbors",
 		"username": "user",
-		"password": "sqlQlqjs!1",
+		"password": "****",
 		"dialect": "mysql",
 		"port": "3306"
 	},
